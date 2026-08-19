@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Blog da Mamusca</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+<header>
+<h1> Agosto lilás</h1>
+<p> Blog da Mamusca!</p>
+</header>
+<main>
+<img src="imagem.png" alt="logotipo conceitual">
+<div>
+<h2>Agosto lilás</h2>
+<p class="artigo-autor">por: Ane Andersen</p>
+<p>O Agosto Lilás é uma campanha de conscientização e combate à violência contra a mulher. 
+    Durante todo o mês, são realizadas ações para informar a sociedade sobre os diferentes tipos de violência,
+     como física, psicológica, sexual, moral e patrimonial. </p>
+<p></p>A campanha também busca incentivar as vítimas a denunciarem seus agressores e procurarem ajuda. 
+É importante lembrar que nenhuma mulher deve aceitar situações de violência ou viver com medo. <p></p>
+</p> Todos podem contribuir para essa luta, oferecendo apoio, 
+respeito e acolhimento. <p></p> Combater a violência contra a mulher é responsabilidade de toda a sociedade. Juntos, podemos construir um ambiente mais seguro, 
+justo e livre de violência para todas.</p>
+<p></p>O Agosto Lilás nos convida a refletir sobre a importância de combater a violência contra a mulher e de construir uma sociedade baseada no respeito,
+ na igualdade e na proteção.
+ Mais do que uma campanha, este mês representa um chamado à conscientização, à denúncia e ao apoio às vítimas.
+  Cada atitude de respeito e cada voz que se posiciona contra a violência contribuem para um futuro em que nenhuma mulher precise viver com medo.</p>
+
+<button>❤️<span>0</span></button>
+
+</div>
+</main>
+</body>
+<script>
+const botao=document.querySelector("button");
+ botao.addEventListener("click",botaoClicado);
+
+function botaoClicado (){
+console.log ("clicado")
+let texto=botao.querySelector("span")
+texto.textContent++;
+}
+
+</script>
+
+</html>

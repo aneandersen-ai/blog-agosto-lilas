@@ -1,0 +1,30 @@
+body{
+max-width: 800px;
+margin: 0 auto;
+}
+
+header{
+background-color: rgb(181, 108, 250);
+color:#fff;
+text-align: center;
+}
+
+main{
+background-color:#fff;
+color:rgb(181, 108, 250);
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+display: flex;
+}
+
+img{
+width: 350px;
+height: 350px;
+border: 15px solid#fff;
+}
+
+
+.artigo-autor{
+    font-weight: bold;
+}
